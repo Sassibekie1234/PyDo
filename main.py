@@ -7,7 +7,7 @@ Als je een idee hebt voor mijn volgende projecten hoor ik ze graag.
 
 Ik hoop met deze code andere beginners te kunnen motiveren en op weg te helpen.
 
-Deze code is vrij te gebruiken en te kopieren. Ik zou het wel fijn vinden als je de verwijzing naar mijn github/gitlab laat staan.
+Deze code is vrij te gebruiken en te kopieren. Ik zou het wel fijn vinden als je de verwijzing naar mijn github laat staan.
 
 Voor meer info: raadpleeg de readme.md
 '''
