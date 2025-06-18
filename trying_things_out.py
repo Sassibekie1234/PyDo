@@ -1,5 +1,5 @@
 '''
-Hallo en welkom bij CliDo: de FOSS CLI to-do app geschreven in Python 3
+Hallo en welkom bij PyDo: de FOSS CLI to-do app geschreven in Python 3
 
 Om te beginnen wil ik vermelden dat dit mijn eerste project is met een tekstgebaseerde programeertaal.
 Dit is mijn eerste keer en ik heb geen idee wat ik doe.
@@ -12,12 +12,13 @@ Deze code is vrij te gebruiken en te kopieren. Ik zou het wel fijn vinden als je
 Voor meer info: raadpleeg de readme.md
 '''
 
+import json
+
 def nieuwe_taak():
-    file = open('tasks.txt', 'a')
     print('Geef je nieuwe taak in')
     toe_te_voegen_taak = input(" : ")
-    file.write(toe_te_voegen_taak + "\n")
-    file.close()
+    with open("tasks.json", "w") as f:
+        
 
 def taak_klaar():
     print("Nog steeds niet afgewerkt")

@@ -1,5 +1,5 @@
 '''
-Hallo en welkom bij CliDo: de FOSS CLI to-do app geschreven in Python 3
+Hallo en welkom bij PyDo: de FOSS CLI to-do app geschreven in Python 3
 
 Om te beginnen wil ik vermelden dat dit mijn eerste project is met een tekstgebaseerde programeertaal.
 Dit is mijn eerste keer en ik heb geen idee wat ik doe.
