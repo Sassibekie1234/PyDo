@@ -18,7 +18,7 @@ def nieuwe_taak():
     print('Geef je nieuwe taak in')
     toe_te_voegen_taak = input(" : ")
     with open("tasks.json", "w") as f:
-        
+        json.dump(toe_te_voegen_taak, f, indent=4)
 
 def taak_klaar():
     print("Nog steeds niet afgewerkt")
