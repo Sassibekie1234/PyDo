@@ -1,21 +1,3 @@
-def nieuwe_taak():
-    file = open('tasks.txt', 'a')
-    print('Geef je nieuwe taak in')
-    toe_te_voegen_taak = input(" : ")
-    file.write(toe_te_voegen_taak + "\n")
-    file.close()
-
-def taak_klaar():
-    # Zoek door de code naar de taak
-    # Verwijder de taak
-    print("In progress")
-
-def taken_legen():
-    file = open("tasks.txt", "w")
-    file.write("")
-    file.close()
-
-
 commando = ""
 
 print('PyDo v1.0')
@@ -52,3 +34,21 @@ while True :
     else :
         print('Dit commando bestaat niet.')
         print("Typ help om een lijst met commando's te zien")
+
+def nieuwe_taak():
+    file = open('tasks.txt', 'a')
+    print('Geef je nieuwe taak in')
+    toe_te_voegen_taak = input(" : ")
+    file.write(toe_te_voegen_taak + "\n")
+    file.close()
+
+def taak_klaar():
+    # Zoek door de code naar de taak
+    # Verwijder de taak
+    print("In progress")
+
+def taken_legen():
+    file = open("tasks.txt", "w")
+    file.write("")
+    file.close()
+
