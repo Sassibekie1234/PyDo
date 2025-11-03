@@ -1,17 +1,3 @@
-'''
-Hallo en welkom bij PyDo: de FOSS CLI to-do app geschreven in Python 3
-
-Om te beginnen wil ik vermelden dat dit mijn eerste project is met een tekstgebaseerde programeertaal.
-Dit is mijn eerste keer en ik heb geen idee wat ik doe.
-Als je een idee hebt voor mijn volgende projecten hoor ik ze graag.
-
-Ik hoop met deze code andere beginners te kunnen motiveren en op weg te helpen.
-
-Deze code is vrij te gebruiken en te kopieren. Ik zou het wel fijn vinden als je de verwijzing naar mijn github laat staan.
-
-Voor meer info: raadpleeg de readme.md
-'''
-
 def nieuwe_taak():
     file = open('tasks.txt', 'a')
     print('Geef je nieuwe taak in')
@@ -20,7 +6,9 @@ def nieuwe_taak():
     file.close()
 
 def taak_klaar():
-    print("Nog steeds niet afgewerkt")
+    # Zoek door de code naar de taak
+    # Verwijder de taak
+    print("In progress")
 
 def taken_legen():
     file = open("tasks.txt", "w")
