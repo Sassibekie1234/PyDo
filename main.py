@@ -10,7 +10,7 @@ taken = taken_str.split("\n")
 
 def nieuwe_taak():
     nieuwetaak = input("Nieuwe taak > ")
-    taken.append(nieuwe_taak)
+    taken.append(nieuwetaak)
 
 def taak_klaar():
     # Zoek door de txt naar de taak
