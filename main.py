@@ -2,15 +2,18 @@ commando = ""
 
 print('PyDo v1.0')
 
+# Laad de taken in het geheugen
+file = open('tasks.txt', 'r')
+taken_str = file.read()
+taken = taken_str.split("\n")
+
+
 def nieuwe_taak():
-    file = open('tasks.txt', 'a')
-    print('Geef je nieuwe taak in')
-    toe_te_voegen_taak = input(" : ")
-    file.write(toe_te_voegen_taak + "\n")
-    file.close()
+    nieuwetaak = 
+    taken.append()
 
 def taak_klaar():
-    # Zoek door de code naar de taak
+    # Zoek door de txt naar de taak
     # Verwijder de taak
     print("In progress")
 
@@ -22,7 +25,7 @@ def taken_legen():
 def nieuwe_taak():
     file = open('tasks.txt', 'a')
     print('Geef je nieuwe taak in')
-    toe_te_voegen_taak = input(" : ")
+    toe_te_voegen_taak = input("> ")
     file.write(toe_te_voegen_taak + "\n")
     file.close()
 
@@ -37,7 +40,7 @@ def taken_legen():
     file.close()
 
 while True :
-    commando = input(" : ")
+    commando = input("> ")
     if commando == "nw":
         nieuwe_taak()
 
@@ -45,6 +48,7 @@ while True :
         taak_klaar()
 
     elif commando == "exit":
+
         break
 
     elif commando == "clear":
@@ -53,6 +57,7 @@ while True :
     elif commando == "show":
         file = open("tasks.txt", "r")
         content = file.read()
+        content = content.replace("\n", "")
         print(content)
         file.close()
 
